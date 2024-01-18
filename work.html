@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Works</title>
+  <title>My WebSite</title>
   <link rel="stylesheet" href="https://unpkg.com/destyle.css@3.0.2/destyle.min.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -13,32 +13,34 @@
 
 <body>
   <header class="header">
-    <div class="wrapper">
-      <div class="flex">
-        <h1 class="home"><a href="index.html" class="link"><span class="material-icons button" id="home">home</span></a></h1>
-        <nav>
-          <ul class="nav">
-            <li class="here"><a href="work.html">work</a></li>
-            <li><a href="studying.html" class="link">studying</a></li>
-            <li><a href="hobby.html" class="link">hobby</a></li>
-            <li><a href="history.html" class="link">history</a></li>
-            <li><a href="contact.html" class="link">contact</a></li>
-          </ul>
-          <h1 class="navicon"><span class="material-icons" id="open">menu</span></h1>
-        </nav>
+    <div class="header-as-main">
+      <div class="wrapper">
+        <div class="flex">
+          <h1 class="button"><a href="index.html"><span class="material-icons home">home</span></a></h1>
+          <nav>
+            <ul class="nav">
+              <li class="button"><a href="work.html">work</a></li>
+              <li><a href="studying.html" class="button">studying</a></li>
+              <li><a href="hobby.html" class="button">hobby</a></li>
+              <li><a href="history.html" class="button">history</a></li>
+              <li><a href="contact.html" class="button">contact</a></li>
+            </ul>
+            <h1 class="navicon button"><span class="material-icons" id="open">menu</span></h1>
+          </nav>
+        </div>
       </div>
+    </div>
   </header>
 
   <div class="overlay">
     <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="work.html">work</a></li>
-      <li><a href="studying.html">studying</a></li>
-      <li><a href="hobby.html">hobby</a></li>
-      <li><a href="history.html">history</a></li>
-      <li><a href="contact.html">contact</a></li>
+      <li><a href="work.html" class="button">work</a></li>
+      <li><a href="studying.html" class="button">studying</a></li>
+      <li><a href="hobby.html" class="button">hobby</a></li>
+      <li><a href="history.html" class="button">history</a></li>
+      <li><a href="contact.html" class="button">contact</a></li>
     </ul>
-    <span class="material-icons" id="close">close</span>
+    <span class="material-icons button" id="close">close</span>
   </div>
 
   <main class="main">
@@ -87,12 +89,14 @@
       </div>
     </div>
   </main>
-  <footer class="footer">
-    <small>
-      <p>Thanks for looking at my website!</p>
-    </small>
-  </footer>
 
+  <footer class="footer">
+    <p class="recommend">Thanks for looking at my website!<br>Please check Here!</p>
+    <span class="material-icons arrow">keyboard_double_arrow_right</span>
+    <a href="https://www.twitter.com/XTpann" class="twitter button">Twitter</a>
+    <a href="https://www.instagram.com/sakata2e2m2e7s1/" class="instagram button">Instagram</a>
+  </footer>
+  
   <script src="js/main.js"></script>
 </body>
 

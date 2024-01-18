@@ -23,7 +23,7 @@ body {
 
 .wrapper {
   /* background: blue; */
-  max-width: 1216px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 32px;
   /* border: 1px solid white; */
@@ -33,11 +33,11 @@ a {
   text-decoration: none;
 }
 
-.link {
+.button {
   cursor: pointer;
 }
 
-.link:hover {
+.button:hover {
   color: #88e;
   opacity: .6;
 }
@@ -78,7 +78,7 @@ h2 {
   width: 100%;
 }
 
-.headermain {
+.header-as-main {
   margin: 0 16px;
 }
 
@@ -93,7 +93,7 @@ h2 {
   border-radius: 32px;
 }
 
-.header #home {
+.header .home {
   /* font-weight: normal; */
   font-size: 4rem;
   line-height: 1;
@@ -152,7 +152,7 @@ h2 {
   top: 0;
   bottom: 0;
   right: 0;
-  left: calc(100% - 256px);
+  left: 0;
   padding-top: 64px;
   opacity: 0;
   pointer-events: none;
@@ -165,12 +165,12 @@ h2 {
 }
 
 #close {
-  background: #200;
-  font-size: 48px;
+  /* background: #200; */
+  font-size: 4rem;
   line-height: 1;
   position: absolute;
-  top: 16px;
-  right: 16px;
+  top: 32px;
+  right: 32px;
   cursor: pointer;
   color: white;
   border-radius: 8px;
@@ -236,7 +236,7 @@ h2 {
 }
 
 .title {
-  background: #0c1b0c;
+  background: #010;
   font-size: 2rem;
   line-height: 3;
   max-width: 512px;
@@ -247,14 +247,14 @@ h2 {
 }
 
 .content {
-  background: #1b0c0c;
+  background: #100;
   border: 1px solid white;
   border-radius: 32px;
 }
 
 /* --------------------footer---------------- */
 .footer {
-  background: #112;
+  background: #111;
   display: flex;
   align-items: center;
   justify-content: center;
