@@ -33,8 +33,13 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
   color: #88e;
+  opacity: .6;
 }
 
 ul {
@@ -100,19 +105,19 @@ h2 {
 .nav {
   display: flex;
   /* border: 1px solid white; */
-  border-radius: 16px;
+  /* border-radius: 16px; */
 }
 
 .here {
   color: #668;
 }
 
-.nav li {
+.nav a {
   background: #1b0c0c;
   font-size: 1.25rem;
   line-height: 2;
   margin-left: 16px;
-  padding: 0 16px;
+  padding: 4px 16px;
   border: 1px solid white;
   border-radius: 16px;
 }
@@ -159,9 +164,9 @@ h2 {
   pointer-events: auto;
 }
 
-.overlay #close {
+#close {
   background: #200;
-  font-size: 32px;
+  font-size: 48px;
   line-height: 1;
   position: absolute;
   top: 16px;
@@ -169,6 +174,10 @@ h2 {
   cursor: pointer;
   color: white;
   border-radius: 8px;
+}
+
+#close:hover {
+  opacity: .6;
 }
 
 .overlay ul {
